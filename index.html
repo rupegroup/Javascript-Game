@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rupe Technologies Limited: Educational Game</title>
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </head>
+    <script>
+   $(document).ready(function(){
+       $("#StartButton").click(function () {
+        $("#SplashScreen").hide();
+        $("#gameWorld").show();
+    });
+   });
+</script>
+    <body>
+          <div id="SplashScreen">
+            <input id="StartButton" type="button" value="Start"/>
+          </div>
+        <div id="gameHolder">
+            <canvas id="gameWorld" width="1000" height="600" style="display: none;"></canvas>
+        </div>
+    </body>
+</html>

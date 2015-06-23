@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#SplashScreen{
+    background-image: url("../assets/background1.jpg"); 
+    background-repeat: no-repeat;
+    height:600px;
+    position:relative;
+    
+}
+
+h1{
+    margin:0;
+}
+
+input{
+    width: 120px;
+    height: 40px;
+    background-color: #09ca05;
+    color: #ff0000;
+    font-size: 1.5em;
+    text-align:center;
+    font-weight: bold;
+    position: absolute;
+    top: 51%;
+    left: 14%;
+    cursor: pointer;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+}
